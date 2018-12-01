@@ -19,3 +19,5 @@ Credentials:
     username: admin
     password: admin12345
 ```
+
+Refer [docs](https://github.com/NJACKWinterOfCode/cruzz/tree/master/docs) to know more about how to use or setup the project.
