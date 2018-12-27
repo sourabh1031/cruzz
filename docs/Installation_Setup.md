@@ -4,7 +4,7 @@ Authored by: [Monal Shadi](https://github.com/Monal5031)
 
 Initial setup:
 
-1. Install python
+1. Install python3.6
     ```bash
        sudo apt-get install python3.6
     ```
@@ -19,23 +19,32 @@ Initial setup:
        sudo apt-get install virtualenv
     ```
 
-4. Create py3.6 virtualenv
+4. Create python3.6 virtualenv
     ```bash
        virtualenv -p python3.6 venv
     ```
 
-5. Install requirements
+5. Activate virtual environment
+   ```bash
+      source venv/bin/activate
+   ```
+
+6. Install requirements
     ```bash
-       pip install requirements.txt 
+       pip install -r requirements.txt 
     ```
     
-    before using installing requirements make sure your pip is upto date
+Note: before installing requirements make sure your pip is upto date
+
+If not then upgrade it by the following command and make sure to do this inside virtual environment
+
     ```bash
        pip install --upgrade pip
     ```
 
-Project Databse setup:
-1. Install psql (PostgreSQL) 9.5.12
+Project Databse Setup:
+
+1. Install psql (PostgreSQL) (v9.5.12^ or later)
 
 2. Login to postgres
     ```bash
